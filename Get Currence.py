@@ -5,7 +5,7 @@ import requests
 
 removemarkup = ReplyKeyboardRemove()
     
-TOKEN = '7292583591:AAF86Tn619kf5cpZWISfdnaOowX6OpHHbog'
+TOKEN = '<BOT_TOKEN>'
 bot = telebot.TeleBot(TOKEN)
 # get cryptocurrency
 def get_price(currence):
